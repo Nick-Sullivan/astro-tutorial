@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Hello"
 SCRIPT_DIR=$(realpath "$(dirname "${BASH_SOURCE[0]}")")
 ASTRO_DIR="$SCRIPT_DIR/../astro"
 
