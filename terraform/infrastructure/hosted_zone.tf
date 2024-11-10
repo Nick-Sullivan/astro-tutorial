@@ -1,10 +1,10 @@
 
 # Create a hosted zone for our domain and point it to CloudFront.
 
-resource "aws_route53_zone" "website" {
-  name              = local.url
-  delegation_set_id = data.aws_ssm_parameter.delegation_set_id.value
-}
+# resource "aws_route53_zone" "website" {
+#   name              = local.url
+#   delegation_set_id = data.aws_ssm_parameter.delegation_set_id.value
+# }
 
 # resource "aws_route53_record" "ipv4" {
 #   zone_id = aws_route53_zone.website.zone_id
